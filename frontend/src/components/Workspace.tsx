@@ -112,7 +112,7 @@ export function Workspace() {
         )}
         {session === "unavailable" && (
           <>
-            <p className="mt-4" role="alert">Couldn't check your session.</p>
+            <p className="mt-4" role="alert">Couldn&apos;t check your session.</p>
             <button
               type="button"
               className={`mt-4 ${actionClass}`}
